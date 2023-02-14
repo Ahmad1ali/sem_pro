@@ -17,7 +17,21 @@ class LuckyController extends AbstractController
     }
 
 
-//    #[Route('/goedemorgen')]
+//    #[Route('/lucky/morgen')]
 //     public function morgenMeneerjong(){
+//        return new Response(
+//            '<html><body><h1 class = text-danger >Goedemorgen</h1></body></html>'
+//        );
 //    }
+   #[Route('/goedemorgen')]
+    public function morgenMeneerjong(){
+        $morgen = "Goedemorgen";
+        return $this->render('bezoker/voorbeeld.html.twig',['morgenMeneerjong'=>$morgen]);
+
+//       return new Response(
+//           '<html><body><h1 class = text-danger >Goedemorgen</h1></body></html>'
+//    );
+}
+
+
 }
