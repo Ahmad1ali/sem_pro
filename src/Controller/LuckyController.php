@@ -39,5 +39,13 @@ class LuckyController extends AbstractController
         $date = DATE('l \t\h\e jS');
         return $this->render('bezoker/home.html.twig', ['HomePage' => $date]);
     }
+    #[Route('/Contact')]
+    public function ContactPage()
+    {
+        $date = DATE('l \t\h\e jS');
+        return $this->render('bezoker/contact.html.twig', ['ContactPage' => $date]);
+    }
+
+
 
 }

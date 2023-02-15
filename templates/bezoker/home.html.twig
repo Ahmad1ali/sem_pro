@@ -8,35 +8,64 @@
         .wel-text{
             font-family: 'Zeyada', cursive;
         }
+        footer{
+            margin-top:290px;
+        }
     </style>
     <header>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <!-- Navbar -->
+{#        <nav class="navbar navbar-expand-lg navbar-light bg-dark">#}
+{#            <div class="container-fluid">#}
+{#                <button#}
+{#                        class="navbar-toggler"#}
+{#                        type="button"#}
+{#                        data-mdb-toggle="collapse"#}
+{#                        data-mdb-target="#navbarExample01"#}
+{#                        aria-controls="navbarExample01"#}
+{#                        aria-expanded="false"#}
+{#                        aria-label="Toggle navigation"#}
+{#                >#}
+{#                    <i class="fas fa-bars"></i>#}
+{#                </button>#}
+{#                <div class="collapse navbar-collapse" id="navbarExample01">#}
+{#                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">#}
+{#                        <li class="nav-item active">#}
+{#                            <a class="nav-link text-light" aria-current="page" href="/Home">Home</a>#}
+{#                        </li>#}
+{#                        <li class="nav-item">#}
+{#                            <a class="nav-link text-light" href="#">Features</a>#}
+{#                        </li>#}
+{#                        <li class="nav-item">#}
+{#                            <a class="nav-link text-light" href="#">Pricing</a>#}
+{#                        </li>#}
+{#                        <li class="nav-item">#}
+{#                            <a class="nav-link text-light" href="/Contact">Contact</a>#}
+{#                        </li>#}
+{#                    </ul>#}
+{#                </div>#}
+{#            </div>#}
+{#        </nav>#}
+
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <div class="container-fluid">
-                <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-mdb-toggle="collapse"
-                        data-mdb-target="#navbarExample01"
-                        aria-controls="navbarExample01"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                >
-                    <i class="fas fa-bars"></i>
+                <a class="navbar-brand text-light" href="">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarExample01">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Features</a>
+                            <a class="nav-link text-light text-light" href="#">Features</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" href="#">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">About</a>
+                            <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                         </li>
                     </ul>
                 </div>
@@ -49,7 +78,7 @@
                 class="p-5 text-center bg-image"
                 style="
       background-image: url('/img/pngtree-pizza-cartoon-yellow-poster-banner-background-picture-image_1022083.jpg');
-      height: 400px;
+      height: 500px;
     "
         >
             <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
@@ -57,14 +86,55 @@
                     <div class="text-white">
                         <h1 class="mb-3 wel-text">Welcome to our site</h1>
                         <h4 class="mb-3">{{ HomePage }}</h4>
-                        <a class="btn btn-outline-light btn-lg" href="#!" role="button"
-                        >Call to action</a
-                        >
+{#                        <a class="btn btn-outline-light btn-lg" href="#!" role="button"#}
+{#                        >Call to action</a#}
+{#                        >#}
                     </div>
                 </div>
             </div>
         </div>
         <!-- Background image -->
+
+        <footer class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    ><i class='bx bx-phone' ></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    ><i class='bx bxl-twitter' ></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    ><i class='bx bxl-whatsapp' ></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    ><i class='bx bxl-github' ></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    ><i class='bx bxl-instagram'></i></a>
+
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    ><i class='bx bxl-facebook'></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">GolanSoftware</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
     </header>
     </body>
     </html>
