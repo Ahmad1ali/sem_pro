@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cd45645-46d8-44e8-a4a0-bf0a7e009cb8" name="Changes" comment="">
+    <list default="true" id="30c02e68-e25e-4c76-af3a-aac544f15b6a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controller/TaskController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/task/taskform.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sem_pro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sem_pro.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
@@ -159,10 +164,9 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectId" id="2LrC3HUpsmVF3Rc6b1Wpy3Y1j9M" />
+  <component name="ProjectId" id="2ModkTarW7TBbKAT1DythIjTR6C" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -183,12 +187,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3cd45645-46d8-44e8-a4a0-bf0a7e009cb8" name="Changes" comment="" />
-      <created>1676619614872</created>
+      <changelist id="30c02e68-e25e-4c76-af3a-aac544f15b6a" name="Changes" comment="" />
+      <created>1678438012416</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676619614872</updated>
-      <workItem from="1676619617293" duration="3270000" />
+      <updated>1678438012416</updated>
+      <workItem from="1678438014895" duration="1803000" />
     </task>
     <servers />
   </component>
